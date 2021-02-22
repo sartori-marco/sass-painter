@@ -1,18 +1,23 @@
 header{
   height: $altezzaHeader;
   background-color: $sfondoNero;
-  .container{
-    width: $larghezzaContainer;
-    margin: 0 auto;
-  }
 
+  @include container;
   .header-top{
     height: $altezzaHeaderTop;
-    background-color: red;
+    nav{
+      @include flex(flex-end,center);
+      height: 100%;
+    }
   }
 
   .header-bottom{
     height: $altezzaHeaderBottom;
     background-color: yellow;
   }
+
+
+
+
+
 }

@@ -4,6 +4,34 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  height: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  padding: 10px;
+}
+nav a {
+  color: #ffffff;
+}
+nav a:hover {
+  color: grey;
+  -webkit-text-decoration: white;
+          text-decoration: white;
+}
+
 header {
   height: 100px;
   background-color: #000000;
@@ -14,7 +42,12 @@ header .container {
 }
 header .header-top {
   height: 30px;
-  background-color: red;
+}
+header .header-top nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
 }
 header .header-bottom {
   height: 70px;

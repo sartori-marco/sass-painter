@@ -1,0 +1,16 @@
+nav{
+  height: 100%;
+  ul{
+    @include flex(space-between,center);
+  }
+    li{
+      padding: $padding-10
+    }
+      a{
+        color: $coloreBianco
+      }
+      a:hover{
+        color: $coloreGrigio;
+        text-decoration: $sottolineatura
+      }
+}
