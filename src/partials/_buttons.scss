@@ -1,0 +1,10 @@
+.btn1{
+  @include btn(black, white, 10px);
+  margin-top: $margin-30;
+  margin-right: $margin-20
+}
+
+.btn2{
+  @include btn(#3c7ed5, black, 10px);
+  margin-top: $margin-30;
+}

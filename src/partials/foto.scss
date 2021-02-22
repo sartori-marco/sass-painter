@@ -1,0 +1,14 @@
+.foto{
+  background-color: red;
+  height: 500px;
+  @include container;
+
+  h2{
+    padding-top: $padding-30
+  }
+
+
+
+
+
+}
