@@ -1,0 +1,18 @@
+header{
+  height: $altezzaHeader;
+  background-color: $sfondoNero;
+  .container{
+    width: $larghezzaContainer;
+    margin: 0 auto;
+  }
+
+  .header-top{
+    height: $altezzaHeaderTop;
+    background-color: red;
+  }
+
+  .header-bottom{
+    height: $altezzaHeaderBottom;
+    background-color: yellow;
+  }
+}

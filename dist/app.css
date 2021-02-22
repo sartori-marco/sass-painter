@@ -1,1 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
+  height: 100px;
+  background-color: #000000;
+}
+header .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header .header-top {
+  height: 30px;
+  background-color: red;
+}
+header .header-bottom {
+  height: 70px;
+  background-color: yellow;
+}
