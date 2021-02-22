@@ -128,7 +128,6 @@ header .header-bottom .logo img {
 }
 
 .foto {
-  background-color: red;
   height: 500px;
 }
 .foto .container {
@@ -137,6 +136,7 @@ header .header-bottom .logo img {
 }
 .foto h2 {
   padding-top: 30px;
+  text-align: center;
 }
 .foto .immagini {
   display: flex;
