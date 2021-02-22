@@ -7,6 +7,15 @@
     padding-top: $padding-30
   }
 
+  .immagini{
+    @include flex(space-between,center);
+  }
+
+  img{
+    padding-top: $padding-20;
+    width: 350px;
+  }
+
 
 
 

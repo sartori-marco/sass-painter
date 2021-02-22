@@ -138,3 +138,12 @@ header .header-bottom .logo img {
 .foto h2 {
   padding-top: 30px;
 }
+.foto .immagini {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foto img {
+  padding-top: 20px;
+  width: 350px;
+}
