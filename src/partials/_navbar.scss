@@ -1,4 +1,4 @@
-nav{
+nav.nav-top{
   height: 100%;
   ul{
     @include flex(space-between,center);
@@ -12,5 +12,22 @@ nav{
       a:hover{
         color: $coloreGrigio;
         text-decoration: $sottolineatura
+      }
+}
+
+nav.nav-bottom{
+  height: 100%;
+
+  ul{
+    @include flex(space-between,center);
+  }
+    li{
+        padding: $padding-10;
+        padding-top: $padding-30;
+        margin-right: $margin-30;
+        margin-left: $margin-20
+    }
+      a{
+        color: $coloreBianco
       }
 }

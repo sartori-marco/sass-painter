@@ -13,7 +13,10 @@ header{
 
   .header-bottom{
     height: $altezzaHeaderBottom;
-    background-color: yellow;
+    @include flex(flex-start,center);
+    .logo img{
+      width: 100px;
+    }
   }
 
 
