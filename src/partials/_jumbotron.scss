@@ -1,0 +1,24 @@
+main{
+  // background-image: url();
+  background-color: #3c7ed5;
+  height: 800px;
+  @include container;
+
+  h1{
+    font-size: $size-big;
+    padding-top: $padding-30
+  }
+  h3{
+    padding-top: $padding-10
+  }
+  h4{
+    color: $coloreViola;
+    padding-top: $padding-30;
+    font-style: $testoObliquo;
+  }
+  h5{
+    color: $coloreViola;
+    font-style: $testoObliquo;
+  }
+
+}
